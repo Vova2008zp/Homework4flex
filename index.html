@@ -13,73 +13,75 @@
   <body>
     <header>
       <div class="heading">
-          <h1 class="heading__title">Welcome to Acme Web Solutions</h1>
-          <p class="heading__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, reprehenderit dolore? Similique labore
-            aliquam cum enim eaque rerum, earum consequuntur aut dolorum tenetur. Iste voluptatum repudiandae quisquam!
-            Ex, ullam ipsam?</p>
-          <a href="section" class="heading__btn">Read More</a>
+        <h1 class="heading-title">Welcome to Acme Web Solutions</h1>
+        <p class="heading-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, reprehenderit
+          dolore? Similique labore
+          aliquam cum enim eaque rerum, earum consequuntur aut dolorum tenetur. Iste voluptatum repudiandae quisquam!
+          Ex, ullam ipsam?</p>
+        <a href="#row" class="heading-btn">Read More</a>
       </div>
     </header>
     <main>
-      <section class="section__dev">
-        <h2 class="dev__title title">Web & Application Development</h2>
-        <p class="dev__text text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, eveniet amet? Nobis modi magnam illo dolores exercitationem qui cupiditate aliquid voluptas recusandae, architecto laborum commodi nesciunt distinctio temporibus nisi dicta.</p>
+      <section class="section-dev">
+        <h2 class="dev-title title">Web & Application Development</h2>
+        <p class="dev-text text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, eveniet amet?
+          Nobis modi magnam illo dolores exercitationem qui cupiditate aliquid voluptas recusandae, architecto laborum
+          commodi nesciunt distinctio temporibus nisi dicta.</p>
       </section>
-      <section class="column">
-        <section><img src="./images/photo1.jpg" alt="Web Development">
-          <h2>Web Development</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit
+      <section id="row" class="row">
+        <section class="column">
+          <img class="column-img" src="./images/photo1.jpg" alt="Web Development">
+          <h2 class="column-title">Web Development</h2>
+          <p class="column-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et
+            quasi velit
             voluptatum cum maiores exercitationem.</p>
         </section>
-        <section><img src="./images/photo2.jpg" alt="Mobile Applications">
-          <h2>Mobile Applications</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit
+        <section class="column">
+          <img class="column-img" src="./images/photo2.jpg" alt="Mobile Applications">
+          <h2 class="column-title">Mobile Applications</h2>
+          <p class="column-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et
+            quasi velit
             voluptatum cum maiores exercitationem.</p>
         </section>
-        <section><img src="./images/photo3.jpg" alt="Tech Marketing">
-          <h2>Tech Marketing</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit
+        <section class="column"><img class="column-img" src="./images/photo3.jpg" alt="Tech Marketing">
+          <h2 class="column-title">Tech Marketing</h2>
+          <p class="column-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et
+            quasi velit
             voluptatum cum maiores exercitationem.</p>
         </section>
       </section>
-      <section>
-        <h2>We handle all of your digital needs</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum error fugiat cupiditate,
+      <section class="section-needs">
+        <h2 class="needs-title title">We handle all of your digital needs</h2>
+        <p class="needs-text text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum
+          error fugiat cupiditate,
           dolore eius! Minus, explicabo.</p>
       </section>
-    </main>
-    <footer>
-      <section>
-        <section>
-          <h2>We handle all of your digital needs</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum error fugiat
-            cupiditate, dolore eius! Minus, explicabo.</p>
+      <section class="section-about">
+        <section class="section-contact">
+          <h2 class="contact-title title">Contact Us</h2>
+          <p class="contact-text text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum
+            ducimus a quod, ut et
+            voluptas obcaecati unde fuga.
+          </p>
+          <a class="contact-email" href="mailto: contact@acmewebsolutions.test">contact@acmewebsolutions.test</a>
         </section>
-        <section>
-          <section>
-            <h2>Contact Us</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et
-              voluptas obcaecati unde fuga.
-            </p>
-            <a href="mailto: contact@acmewebsolutions.test">contact@acmewebsolutions.test</a>
-          </section>
-          <section>
-            <h2>About Our Company</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti, quae
-              facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut suscipit
-              amet temporibus quo?</p>
-          </section>
+        <section class="section-history">
+          <h2 class="history-title title">About Our Company</h2>
+          <p class="history-text text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro
+            deserunt, deleniti, quae
+            facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut suscipit
+            amet temporibus quo?</p>
         </section>
       </section>
-      <section>
-        <section>
-          <p>Acme Web Solutions</p>
-        </section>
-
-        <section>
-          <p>Project By <a href="https://traversymedia.com/" target="_blank" rel="noreferrer noopener">Traversy
-              Media</a></p>
-        </section>
+    </main>
+    <footer class="footer">
+      <section class="section-solution">
+        <p class="soltion-text">Acme Web Solutions</p>
+      </section>
+      <section class="section-project">
+        <p class="project-text">Project By <a href="https://traversymedia.com/" target="_blank" rel="noreferrer noopener">
+          <span class="project-label">Traversy Media</span></a></p>
+      </section>
       </section>
     </footer>
   </body>
