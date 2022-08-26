@@ -125,10 +125,6 @@ body {
   margin-bottom: 40px;
 }
 
-.card-text {
-  flex: 1 0 auto;
-}
-
 .section-needs {
   padding: 36px;
   background-color: var(--secondary-font-color);
@@ -143,9 +139,12 @@ body {
   color: var(--secondary-font-color);
 }
 
-.section-contact {
-  flex: 1 0 50%;
+.container-about {
+  width: 50%;
   padding: 35px;
+}
+
+.section-contact {
   background-color: var(--contact-bg-color);
 }
 
@@ -159,7 +158,6 @@ body {
 }
 
 .section-history {
-  padding: 35px;
   background-color: var(--main-font-color);
 }
 
